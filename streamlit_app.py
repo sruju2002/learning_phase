@@ -1,9 +1,7 @@
 # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
-from snowflake.snowpark.session import Session
 
-session = session.builder.configs(st.secrets["connections"]["snowflake"]).create()
 
 # Write directly to the app
 st.title(f":cup_with_straw: Customize your smoothie! :cup_with_straw: ")
